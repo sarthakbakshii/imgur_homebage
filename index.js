@@ -79,7 +79,7 @@ const showData = (gArr_a, gArr_b, gArr_c, gArr_d, gArr_e) => {
 
       let media;
       if (splitImg == "mp4") {
-        media = ` <video id="cardVdo" class="img" src="${img}" autoplay="autoplay" controls muted > </video> `;
+        // media = ` <video id="cardVdo" class="img" src="${img}" autoplay="autoplay" controls muted > </video> `;
       } else {
         media = ` <img class="img" src="${img}">`;
       }
