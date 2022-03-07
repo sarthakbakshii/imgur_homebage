@@ -192,6 +192,14 @@ nav .mid .searchInput {
   background-color: teal;
   height: 60px;
   width: 100%;
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 14px;
 }
 .subNav .sunNav_box .box:nth-child(2) .childBox {
   background-color: #633875;
@@ -219,6 +227,12 @@ nav .mid .searchInput {
 }
 .subNav .sunNav_box .box:nth-child(10) .childBox {
   background-color: #ff51ba;
+}
+
+.subNav .sunNav_box .box .childBox span {
+  color: rgba(255, 255, 255, 0.534);
+  font-size: 13px;
+  font-weight: 100;
 }
 
 /* ---------------------------- */
